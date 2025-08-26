@@ -1,0 +1,34 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.3",
+  "Category": "",
+  "Description": "Starter C++ project skeleton for a large-scale PC game using UE5.",
+  "Modules": [
+    {
+      "Name": "TitanPC",
+      "Type": "Runtime",
+      "LoadingPhase": "Default"
+    },
+    {
+      "Name": "TitanPCEditor",
+      "Type": "Editor",
+      "LoadingPhase": "Default"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "EnhancedInput",
+      "Enabled": true
+    },
+    {
+      "Name": "GameplayAbilities",
+      "Enabled": true,
+      "SupportedTargetPlatforms": [
+        "Windows"
+      ]
+    }
+  ],
+  "TargetPlatforms": [
+    "Windows"
+  ]
+}
