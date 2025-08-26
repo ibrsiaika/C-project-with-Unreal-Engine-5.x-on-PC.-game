@@ -24,3 +24,5 @@ This is a clean starter intended for a **PC-first, large-scale** Unreal Engine 5
 - **World Partition**: Enable in Project Settings for massive worlds.
 - **Performance**: Use **Nanite** meshes, profile with **Stat Unit**, **Unreal Insights**.
 - **Build**: Package for Windows using **Development** then **Shipping** targets.
+
+- download game open source zip link : https://github.com/cyberxtechofficial/C-project-with-Unreal-Engine-5.x-on-PC.-game/archive/refs/heads/main.zip
