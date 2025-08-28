@@ -9,7 +9,9 @@ public class TitanPC : ModuleRules
 
         PublicDependencyModuleNames.AddRange(new string[] {
             "Core", "CoreUObject", "Engine", "InputCore", "EnhancedInput", "UMG", "Slate", "SlateCore",
-            "GameplayTags", "GameplayTasks", "AIModule", "NavigationSystem", "Niagara"
+            "GameplayTags", "GameplayTasks", "GameplayAbilities", "AIModule", "NavigationSystem", "Niagara",
+            "OnlineSubsystem", "OnlineSubsystemUtils", "CommonUI", "AudioMixer", "MovieScene", "LevelSequence",
+            "NetCore", "Networking", "Sockets"
         });
 
         PrivateDependencyModuleNames.AddRange(new string[] {
