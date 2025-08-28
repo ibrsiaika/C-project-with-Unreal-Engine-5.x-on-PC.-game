@@ -24,11 +24,41 @@
       "Name": "GameplayAbilities",
       "Enabled": true,
       "SupportedTargetPlatforms": [
-        "Windows"
+        "Windows",
+        "Android"
       ]
+    },
+    {
+      "Name": "CommonUI",
+      "Enabled": true
+    },
+    {
+      "Name": "Niagara",
+      "Enabled": true
+    },
+    {
+      "Name": "GameplayTags",
+      "Enabled": true
+    },
+    {
+      "Name": "AIModule",
+      "Enabled": true
+    },
+    {
+      "Name": "NavigationSystem",
+      "Enabled": true
+    },
+    {
+      "Name": "OnlineSubsystem",
+      "Enabled": true
+    },
+    {
+      "Name": "OnlineSubsystemUtils",
+      "Enabled": true
     }
   ],
   "TargetPlatforms": [
-    "Windows"
+    "Windows",
+    "Android"
   ]
 }
