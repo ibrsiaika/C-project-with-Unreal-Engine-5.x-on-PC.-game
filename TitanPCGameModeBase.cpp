@@ -10,6 +10,8 @@ ATitanPCGameModeBase::ATitanPCGameModeBase()
 {
     DefaultPawnClass = ATitanPCCharacter::StaticClass();
     PlayerControllerClass = ATitanPCPlayerController::StaticClass();
+    // Set default cinematic class so it runs without extra setup
+    DropShipSequenceClass = ATitanPCDropShipSequence::StaticClass();
 }
 
 void ATitanPCGameModeBase::BeginPlay()
